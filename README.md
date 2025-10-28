@@ -1,4 +1,4 @@
-# COVID-19 Patient Classification — Machine Learning Project
+# COVID-19 Patient Classification_MLProject
 This work was developed as part of a **university course project** on data analysis and machine learning.  
 Although the models and results are simple, the project provided a practical understanding of:
 - how to handle imbalanced data,  
@@ -22,15 +22,7 @@ The analysis consisted of the following steps:
 4. **Model evaluation** using cross-validation.  
 5. **Dataset balancing** using under-sampling to analyze its impact on accuracy and recall.
 
-## Main Findings
-
-- The dataset was **highly imbalanced**, with most patients belonging to the same class.  
-- The baseline model achieved around **97% accuracy**, which reflected the imbalance rather than true predictive performance.  
-- After applying **under-sampling**, classifiers such as Decision Trees and K-Nearest Neighbors showed **better recall** for minority classes, although overall accuracy decreased.  
-- The **correlation matrix** revealed clear relationships between certain variables, such as *ICU* and *intubated*, or *sex* and *pregnancy*.
-
-## Results Summary
-
+## Results
 | Classifier | Mean Accuracy (CV) | Notes |
 |-------------|--------------------|-------|
 | DummyClassifier | ~0.97 | Indicates class imbalance |
